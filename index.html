@@ -3,75 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luke Petersen | Junior Web Developer</title>
+    <title>Luke Petersen | Developer & Designer</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav>
         <div class="logo">LUKE PETERSEN</div>
         <ul>
-            <li><a href="#services">Services</a></li>
             <li><a href="#work">Work</a></li>
-            <li><a href="https://wa.me/27XXXXXXXXX">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="mailto:your-email@example.com">Contact</a></li>
         </ul>
     </nav>
 
     <header class="hero">
-        <h1>BSc CS Student & <span class="highlight">Junior Developer</span> at RLabs.</h1>
-        <p>I build professional, mobile-friendly websites and digital solutions for local businesses and organizations.</p>
-        <a href="#work" class="btn">View My Work</a>
+        <h1>BSc CS Student & <span style="color: #6366f1;">Developer</span> at RLabs.</h1>
+        <p>Building accessible, engaging digital experiences for local businesses in Cape Town.</p>
+        <a href="#work" class="btn">View Work</a>
     </header>
 
-    <section id="services">
-        <h2>What I Do</h2>
+    <section class="work-section" id="work">
+        <h2>Featured Work</h2>
+        
         <div class="grid">
-            <div class="card">
-                <div class="tag">Design</div>
-                <h3>WordPress & Elementor</h3>
-                <p>Speedy, professional websites built for small businesses that are easy to manage.</p>
-            </div>
-            <div class="card">
-                <div class="tag">Engineering</div>
-                <h3>Custom Web Apps</h3>
-                <p>Hand-coded solutions using HTML, CSS, and JavaScript, currently expanding into Full-Stack.</p>
-            </div>
-            <div class="card">
-                <div class="tag">Consulting</div>
-                <h3>Digital Maintenance</h3>
-                <p>Security updates, hosting management, and performance optimization for local brands.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="work" style="background: white;">
-        <h2>Previous Work</h2>
-        <div class="grid">
+            
             <a href="https://rlabs.org" target="_blank" class="card">
-                <div class="tag">Experience</div>
+                <div class="card-image">
+                    <img src="rlabs-preview.jpg" alt="RLabs Project">
+                </div>
                 <h3>RLabs Ecosystem</h3>
-                <p>Working as a Junior Web Developer, managing front-end updates and community projects.</p>
-                <div style="margin-top: 15px; color: #007bff; font-weight: bold;">Visit RLabs →</div>
+                <p>Web Development • WordPress</p>
             </a>
 
             <a href="valentine.html" target="_blank" class="card">
-                <div class="tag">Personal Project</div>
-                <h3>Interactive Valentine Page</h3>
-                <p>A custom JavaScript project featuring dynamic DOM manipulation and CSS animations.</p>
-                <div style="margin-top: 15px; color: #007bff; font-weight: bold;">Check it out →</div>
+                <div class="card-image">
+                    <img src="valentine-preview.jpg" alt="Valentine Project">
+                </div>
+                <h3>Interactive Valentine</h3>
+                <p>Frontend • JavaScript Animation</p>
             </a>
 
-            <div class="card">
-                <div class="tag">Upcoming</div>
-                <h3>New Client Site</h3>
-                <p>I am currently open for freelance projects in the Cape Town area and beyond.</p>
-            </div>
+            <a href="#" class="card">
+                <div class="card-image"></div>
+                <h3>Coming Soon</h3>
+                <p>Webflow • Design</p>
+            </a>
+
         </div>
     </section>
 
-    <footer>
-        <p>© 2026 Luke Petersen | Cape Town, South Africa</p>
+    <footer style="padding: 100px 10%; text-align: center; color: #999;">
+        <p>© 2026 Luke Petersen. Built with passion & code.</p>
     </footer>
 
 </body>
